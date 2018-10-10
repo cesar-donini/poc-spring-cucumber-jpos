@@ -2,9 +2,7 @@ package br.com.poc.spring.cucumber.jpos.configuration;
 
 import java.io.IOException;
 
-import org.jpos.iso.ISOException;
-import org.jpos.iso.ISOServer;
-import org.jpos.iso.ServerChannel;
+import org.jpos.iso.*;
 import org.jpos.iso.channel.XMLChannel;
 import org.jpos.iso.packager.XMLPackager;
 import org.jpos.util.LogSource;
